@@ -1,0 +1,93 @@
+.conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 884px;
+    padding: 149px;
+    background-color: #BB86FF;
+}
+.input{
+    margin: 14px;
+    border: 0;
+    color: white;
+    padding: 17px;
+    width: 288px;
+    font-size: 27px;
+    background-color: #5B66CC;
+}
+.title{
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 91px;
+    color: white;
+}
+.form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 17px;
+    height: 294px;
+    width: 422px;
+    background-color: #FFE925;
+    padding: 23px;
+}
+.formRegister{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 17px;
+    height: 390px;
+    width: 422px;
+    background-color: #FFE925;
+    padding: 23px;
+}
+.subtitle{
+    font-size: 42px;
+    font-family: 'Karla', sans-serif;
+}
+.btnAuth{
+    padding: 12px;
+    font-size: 27px;
+    font-family: 'Karla', sans-serif;
+    border: 0;
+    color: white;
+    background: brown;
+}
+.btnAuth:hover{
+    background-color: crimson;
+}
+.input::placeholder{
+    color: white;
+    font-family: 'Karla', sans-serif;
+}
+.navar{
+    background-color:#BB86FF;
+    height: 125px;
+}
+.inputConteiner{
+    margin: 97px;
+    padding: 17px;
+    border-style: groove;
+    border-width: 2px;
+}
+.createNote{
+    padding: 10px;
+    width: 400px;
+    border: 0;
+    height: 102px;
+    margin: 15px;
+    font-size: 26px;
+    font-family: 'Karla', sans-serif;
+}
+.createNote::placeholder{
+    color:black;
+}
+.upNote{
+    padding: 10px;
+    border: 0;
+    background: brown;
+    color: white;
+    font-size: 25px;
+    font-family: 'Karla', sans-serif;
+}
